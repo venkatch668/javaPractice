@@ -1,0 +1,12 @@
+<html>
+	<head></head>
+	<body>
+		<h1> welcome </h1>
+		<h1 th:text="'text' + ${message}"></h1>
+		<input type="text" name=" student Name" value="Thomas" th:value="${message}" />  
+		<div  th:each="user : ${ls}"></
+		<h1 th:text="${user.no}"></h1>
+		<h1 th:text="${user.name}"></h1>
+		</div>
+	</body>
+</html>
