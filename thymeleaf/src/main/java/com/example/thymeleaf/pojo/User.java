@@ -1,20 +1,19 @@
 package com.example.thymeleaf.pojo;
 
 public class User {
-	int no;
-	String name;
+	String username;
+	String password;
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
 	
-	public int getNo() {
-		return no;
-	}
-	public void setNo(int no) {
-		this.no = no;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-
 }
